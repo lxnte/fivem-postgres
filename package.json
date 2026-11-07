@@ -1,0 +1,11 @@
+{
+  "name": "fivem-postgres",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PostgreSQL driver for FiveM",
+  "license": "MIT",
+  "author": "LXNTE",
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}

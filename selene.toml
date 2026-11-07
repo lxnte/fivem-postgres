@@ -1,0 +1,10 @@
+std = "lua54+fivem"
+exclude = ["**/fxmanifest.lua", "**/node_modules/**"]
+
+[lints]
+unused_variable = "warn"
+shadowing = "allow"
+global_usage = "allow"
+
+[config]
+multiple_statements = { one_line_if = "allow" }

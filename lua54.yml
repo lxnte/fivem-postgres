@@ -1,0 +1,56 @@
+---
+base: lua51
+name: lua54
+globals:
+  warn:
+    args:
+      - type: "..."
+        required: false
+  table.pack:
+    args:
+      - type: "..."
+        required: false
+  table.unpack:
+    args:
+      - type: "..."
+        required: false
+  table.move:
+    args:
+      - type: "..."
+        required: false
+  math.type:
+    args:
+      - type: any
+  math.tointeger:
+    args:
+      - type: any
+  math.ult:
+    args:
+      - type: "..."
+        required: false
+  math.maxinteger:
+    property: read-only
+  math.mininteger:
+    property: read-only
+  string.pack:
+    args:
+      - type: "..."
+        required: false
+  string.unpack:
+    args:
+      - type: "..."
+        required: false
+  string.packsize:
+    args:
+      - type: "..."
+        required: false
+  coroutine.isyieldable:
+    args:
+      - type: "..."
+        required: false
+  coroutine.close:
+    args:
+      - type: "..."
+        required: false
+  utf8:
+    any: true

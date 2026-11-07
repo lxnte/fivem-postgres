@@ -1,0 +1,4438 @@
+---
+name: fivem
+globals:
+  string.blob:
+    args:
+      - type: number
+  TaskAimGunAtCoord:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleBrake:
+    args:
+      - type: "..."
+        required: false
+  TaskVehicleDriveToCoord:
+    args:
+      - type: "..."
+        required: false
+  TaskHeliMission:
+    args:
+      - type: "..."
+        required: false
+  SetPedDropsWeapon:
+    args:
+      - type: "..."
+        required: false
+  TaskAimGunAtEntity:
+    args:
+      - type: "..."
+        required: false
+  TaskLookAtEntity:
+    args:
+      - type: "..."
+        required: false
+  TaskShootAtCoord:
+    args:
+      - type: "..."
+        required: false
+  TaskShootAtEntity:
+    args:
+      - type: "..."
+        required: false
+  SetTimeScale:
+    args:
+      - type: "..."
+        required: false
+  SetHeliBladesFullSpeed:
+    args:
+      - type: "..."
+        required: false
+  SetPedInfiniteAmmoClip:
+    args:
+      - type: "..."
+        required: false
+  IsNewLoadSceneLoaded:
+    args:
+      - type: "..."
+        required: false
+  ForceRoomForGameViewport:
+    args:
+      - type: "..."
+        required: false
+  ClearRoomForGameViewport:
+    args:
+      - type: "..."
+        required: false
+  TaskGoToCoordWhileAimingAtCoord:
+    args:
+      - type: "..."
+        required: false
+  TaskLookAtCoord:
+    args:
+      - type: "..."
+        required: false
+  GetPedConfigFlag:
+    args:
+      - type: "..."
+        required: false
+  IsNuiFocusKeepingInput:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerControlOn:
+    args:
+      - type: "..."
+        required: false
+  IsControlEnabled:
+    args:
+      - type: "..."
+        required: false
+  IsPedCuffed:
+    args:
+      - type: "..."
+        required: false
+  CreateModelHideExcludingScriptObjects:
+    args:
+      - type: "..."
+        required: false
+  DetachVehicleFromTrailer:
+    args:
+      - type: "..."
+        required: false
+  IsPointInAngledArea:
+    args:
+      - type: "..."
+        required: false
+  IsCamActive:
+    args:
+      - type: "..."
+        required: false
+  SetGameplayCoordHint:
+    args:
+      - type: "..."
+        required: false
+  IsRawKeyPressed:
+    args:
+      - type: "..."
+        required: false
+  GetZoneFromNameId:
+    args:
+      - type: "..."
+        required: false
+  SetInteriorEntitySetTintIndex:
+    args:
+      - type: "..."
+        required: false
+  SetIslandHopperEnabled:
+    args:
+      - type: "..."
+        required: false
+  SetZoneEnabled:
+    args:
+      - type: "..."
+        required: false
+  IsRawKeyReleased:
+    args:
+      - type: "..."
+        required: false
+  IsPedFatallyInjured:
+    args:
+      - type: "..."
+        required: false
+  NetworkGetEntityKillerOfPlayer:
+    args:
+      - type: "..."
+        required: false
+  SetMapZoomDataLevel:
+    args:
+      - type: "..."
+        required: false
+  SetMouseCursorSprite:
+    args:
+      - type: "..."
+        required: false
+  IsRawKeyDown:
+    args:
+      - type: "..."
+        required: false
+  ClonePed:
+    args:
+      - type: "..."
+        required: false
+  ClonePedToTarget:
+    args:
+      - type: "..."
+        required: false
+  SetEntityLocallyInvisible:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerCanDoDriveBy:
+    args:
+      - type: "..."
+        required: false
+  SetIslandEnabled:
+    args:
+      - type: "..."
+        required: false
+  SetInteriorPortalFlag:
+    args:
+      - type: "..."
+        required: false
+  SetInteriorPortalCornerPosition:
+    args:
+      - type: "..."
+        required: false
+  SetWaterAreaClipRect:
+    args:
+      - type: "..."
+        required: false
+  SetToggleMinimapHeistIsland:
+    args:
+      - type: "..."
+        required: false
+  SetRadarAsExteriorThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetRadarAsInteriorThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetHttpHandler:
+    args:
+      - type: "..."
+        required: false
+  SetRadarZoom:
+    args:
+      - type: "..."
+        required: false
+  GetActiveScreenResolution:
+    args:
+      - type: "..."
+        required: false
+  GetAnimDuration:
+    args:
+      - type: "..."
+        required: false
+  DontTiltMinimapThisFrame:
+    args:
+      - type: "..."
+        required: false
+  ClearPedSecondaryTask:
+    args:
+      - type: "..."
+        required: false
+  GetClockHours:
+    args:
+      - type: "..."
+        required: false
+  GetLocalTime:
+    args:
+      - type: "..."
+        required: false
+  GetClosestObjectOfType:
+    args:
+      - type: "..."
+        required: false
+  GetEntityVelocity:
+    args:
+      - type: "..."
+        required: false
+  IsEntityOnScreen:
+    args:
+      - type: "..."
+        required: false
+  IsPedInAnyTrain:
+    args:
+      - type: "..."
+        required: false
+  SetEntityCanBeDamaged:
+    args:
+      - type: "..."
+        required: false
+  SetRopesCreateNetworkWorldState:
+    args:
+      - type: bool
+  CreatePedInsideVehicle:
+    args:
+      - type: "..."
+        required: false
+  TaskVehicleFollow:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorRoomIndexByHash:
+    args:
+      - type: "..."
+        required: false
+  SetInteriorRoomTimecycle:
+    args:
+      - type: "..."
+        required: false
+  SetNightvision:
+    args:
+      - type: bool
+  SetEntityProofs:
+    args:
+      - type: "..."
+        required: false
+  SetEntityTrafficlightOverride:
+    args:
+      - type: "..."
+        required: false
+  GetGameplayCamCoord:
+    args:
+      - type: "..."
+        required: false
+  GetGameplayCamFov:
+    args:
+      - type: "..."
+        required: false
+  GetScreenCoordFromWorldCoord:
+    args:
+      - type: "..."
+        required: false
+  SetTextProportional:
+    args:
+      - type: "..."
+        required: false
+  SetTextDropshadow:
+    args:
+      - type: "..."
+        required: false
+  SetTextDropShadow:
+    args:
+      - type: "..."
+        required: false
+  SetTextEdge:
+    args:
+      - type: "..."
+        required: false
+  SetRainLevel:
+    args:
+      - type: "..."
+        required: false
+  SetWeatherTypeNow:
+    args:
+      - type: "..."
+        required: false
+  SetWeatherTypePersist:
+    args:
+      - type: "..."
+        required: false
+  SetWeatherTypeOvertimePersist:
+    args:
+      - type: "..."
+        required: false
+  SetWindSpeed:
+    args:
+      - type: "..."
+        required: false
+  SetWindDirection:
+    args:
+      - type: "..."
+        required: false
+  SetForceVehicleTrails:
+    args:
+      - type: "..."
+        required: false
+  SetForcePedFootstepsTracks:
+    args:
+      - type: "..."
+        required: false
+  WaterOverrideSetStrength:
+    args:
+      - type: "..."
+        required: false
+  RequestScriptAudioBank:
+    args:
+      - type: "..."
+        required: false
+  ReleaseNamedScriptAudioBank:
+    args:
+      - type: "..."
+        required: false
+  PerformHttpRequest:
+    args:
+      - type: "..."
+        required: false
+  World3dToScreen2d:
+    args:
+      - type: "..."
+        required: false
+  GetControlValue:
+    args:
+      - type: "..."
+        required: false
+  GetDisabledControlNormal:
+    args:
+      - type: "..."
+        required: false
+  GetEntityForwardVector:
+    args:
+      - type: "..."
+        required: false
+  GetEntitySpeedVector:
+    args:
+      - type: "..."
+        required: false
+  GetIsTaskActive:
+    args:
+      - type: "..."
+        required: false
+  GetIsVehicleEngineRunning:
+    args:
+      - type: "..."
+        required: false
+  GetVehiclePedIsUsing:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleSeatFree:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleBrakeLights:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleCheatPowerIncrease:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleForwardSpeed:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleSteeringAngle:
+    args:
+      - type: "..."
+        required: false
+  TaskVehicleTempAction:
+    args:
+      - type: "..."
+        required: false
+  SetEntityCompletelyDisableCollision:
+    args:
+      - type: "..."
+        required: false
+  DeleteObject:
+    args:
+      - type: "..."
+        required: false
+  GetWorldPositionOfEntityBone:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleTyreFixed:
+    args:
+      - type: "..."
+        required: false
+  TaskTurnPedToFaceCoord:
+    args:
+      - type: "..."
+        required: false
+  TaskTurnPedToFaceEntity:
+    args:
+      - type: "..."
+        required: false
+  SetBlockingOfNonTemporaryEvents:
+    args:
+      - type: "..."
+        required: false
+  TriggerScreenblurFadeIn:
+    args:
+      - type: "..."
+        required: false
+  TriggerScreenblurFadeOut:
+    args:
+      - type: "..."
+        required: false
+  DoesExtraExist:
+    args:
+      - type: "..."
+        required: false
+  GetIsVehiclePrimaryColourCustom:
+    args:
+      - type: "..."
+        required: false
+  GetIsVehicleSecondaryColourCustom:
+    args:
+      - type: "..."
+        required: false
+  GetNumberOfVehicleDoors:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleColours:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleCustomPrimaryColour:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleCustomSecondaryColour:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleDashboardColor:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleExtraColours:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleFuelLevel:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleInteriorColor:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleLivery:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleMod:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModelAcceleration:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModelEstimatedMaxSpeed:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModelMaxBraking:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModelMaxTraction:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleNeonLightsColour:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleNumberPlateTextIndex:
+    args:
+      - type: "..."
+        required: false
+  GetVehiclePetrolTankHealth:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleTyreSmokeColor:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleWindowTint:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleXenonLightsColor:
+    args:
+      - type: "..."
+        required: false
+  IsToggleModOn:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleDoorDamaged:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleExtraTurnedOn:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleNeonLightEnabled:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleTyreBurst:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleWindowIntact:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleBodyHealth:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleColours:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleCustomPrimaryColour:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleCustomSecondaryColour:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDashboardColor:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDoorBroken:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleEngineOn:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleExtra:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleExtraColours:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleFuelLevel:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleInteriorColor:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleLights:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleLivery:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleMod:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleModKit:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleNeonLightEnabled:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleNeonLightsColour:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleNumberPlateTextIndex:
+    args:
+      - type: "..."
+        required: false
+  SetVehiclePetrolTankHealth:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleTyreBurst:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleTyreSmokeColor:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleUndriveable:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelType:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWindowTint:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleXenonLightsColor:
+    args:
+      - type: "..."
+        required: false
+  SmashVehicleWindow:
+    args:
+      - type: "..."
+        required: false
+  ToggleVehicleMod:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDoorsLocked:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleBodyHealth:
+    args:
+      - type: "..."
+        required: false
+  GetPedheadshotTxdString:
+    args:
+      - type: "..."
+        required: false
+  IsPedheadshotReady:
+    args:
+      - type: "..."
+        required: false
+  IsPedheadshotValid:
+    args:
+      - type: "..."
+        required: false
+  RegisterPedheadshotTransparent:
+    args:
+      - type: "..."
+        required: false
+  UnregisterPedheadshot:
+    args:
+      - type: "..."
+        required: false
+  GetPedCollectionLocalIndexFromDrawable:
+    args:
+      - type: "..."
+        required: false
+  GetPedCollectionLocalIndexFromProp:
+    args:
+      - type: "..."
+        required: false
+  GetPedCollectionNameFromDrawable:
+    args:
+      - type: "..."
+        required: false
+  GetPedCollectionNameFromProp:
+    args:
+      - type: "..."
+        required: false
+  GetPedDrawableVariation:
+    args:
+      - type: "..."
+        required: false
+  GetPedPaletteVariation:
+    args:
+      - type: "..."
+        required: false
+  GetPedPropIndex:
+    args:
+      - type: "..."
+        required: false
+  GetPedPropTextureIndex:
+    args:
+      - type: "..."
+        required: false
+  GetPedTextureVariation:
+    args:
+      - type: "..."
+        required: false
+  SetPedPropIndex:
+    args:
+      - type: "..."
+        required: false
+  StartParticleFxLoopedOnEntityBone:
+    args:
+      - type: "..."
+        required: false
+  StartNetworkedParticleFxLoopedOnEntityBone:
+    args:
+      - type: "..."
+        required: false
+  SetBlipRouteColour:
+    args:
+      - type: "..."
+        required: false
+  SetBlipRoute:
+    args:
+      - type: "..."
+        required: false
+  IsPedInjured:
+    args:
+      - type: "..."
+        required: false
+  IsPedHurt:
+    args:
+      - type: "..."
+        required: false
+  IsPedInMeleeCombat:
+    args:
+      - type: "..."
+        required: false
+  IsPedOnFoot:
+    args:
+      - type: "..."
+        required: false
+  SetBlipDisplay:
+    args:
+      - type: "..."
+        required: false
+  AddTextComponentString:
+    args:
+      - type: "..."
+        required: false
+  SetBlipAsShortRange:
+    args:
+      - type: "..."
+        required: false
+  GetPedLastDamageBone:
+    args:
+      - type: "..."
+        required: false
+  SetCamParams:
+    args:
+      - type: "..."
+        required: false
+  SetBlipCategory:
+    args:
+      - type: "..."
+        required: false
+  AddBlipForRadius:
+    args:
+      - type: "..."
+        required: false
+  AddBlipForCoord:
+    args:
+      - type: "..."
+        required: false
+  RestorePlayerStamina:
+    args:
+      - type: "..."
+        required: false
+  GetEntityFromStateBagName:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDoorShut:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleDoorFullyOpen:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDoorOpen:
+    args:
+      - type: "..."
+        required: false
+  PlaceObjectOnGroundProperly:
+    args:
+      - type: "..."
+        required: false
+  GetGamePool:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleNumberPlateText:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleType:
+    args:
+      - type: "..."
+        required: false
+  GetEntityRoll:
+    args:
+      - type: "..."
+        required: false
+  GetNorthRadarBlip:
+    args:
+      - type: "..."
+        required: false
+  SetBlipAlpha:
+    args:
+      - type: "..."
+        required: false
+  SetMinimapComponentPosition:
+    args:
+      - type: "..."
+        required: false
+  AddReplaceTexture:
+    args:
+      - type: "..."
+        required: false
+  RemoveReplaceTexture:
+    args:
+      - type: "..."
+        required: false
+  SetMinimapClipType:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerDead:
+    args:
+      - type: "..."
+        required: false
+  StopAnimTask:
+    args:
+      - type: "..."
+        required: false
+  GetPedBoneCoords:
+    args:
+      - type: "..."
+        required: false
+  GetCloudTimeAsInt:
+    args:
+      - type: "..."
+        required: false
+  DrawRect:
+    args:
+      - type: "..."
+        required: false
+  EndTextCommandGetWidth:
+    args:
+      - type: "..."
+        required: false
+  BeginTextCommandGetWidth:
+    args:
+      - type: "..."
+        required: false
+  EndTextCommandDisplayText:
+    args:
+      - type: "..."
+        required: false
+  BeginTextCommandDisplayText:
+    args:
+      - type: "..."
+        required: false
+  BeginTextCommandBusyspinnerOn:
+    args:
+      - type: "..."
+        required: false
+  EndTextCommandBusyspinnerOn:
+    args:
+      - type: "..."
+        required: false
+  SetTextOutline:
+    args:
+      - type: "..."
+        required: false
+  SetTextColour:
+    args:
+      - type: "..."
+        required: false
+  SetTextCentre:
+    args:
+      - type: "..."
+        required: false
+  SetTextFont:
+    args:
+      - type: "..."
+        required: false
+  SetTextScale:
+    args:
+      - type: "..."
+        required: false
+  RequestScaleformMovie:
+    args:
+      - type: "..."
+        required: false
+  HasScaleformMovieLoaded:
+    args:
+      - type: "..."
+        required: false
+  BeginScaleformMovieMethod:
+    args:
+      - type: "..."
+        required: false
+  IsMinimapRendering:
+    args:
+      - type: "..."
+        required: false
+  ScaleformMovieMethodAddParamTextureNameString:
+    args:
+      - type: "..."
+        required: false
+  ScaleformMovieMethodAddParamFloat:
+    args:
+      - type: "..."
+        required: false
+  ScaleformMovieMethodAddParamBool:
+    args:
+      - type: "..."
+        required: false
+  AddMinimapOverlay:
+    args:
+      - type: "..."
+        required: false
+  HasMinimapOverlayLoaded:
+    args:
+      - type: "..."
+        required: false
+  SetMinimapOverlayDisplay:
+    args:
+      - type: "..."
+        required: false
+  CallMinimapScaleformFunction:
+    args:
+      - type: "..."
+        required: false
+  GetTextureResolution:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleHandlingInt:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleHandlingInt:
+    args:
+      - type: "..."
+        required: false
+  RopeForceLength:
+    args:
+      - type: "..."
+        required: false
+  StartRopeUnwindingFront:
+    args:
+      - type: "..."
+        required: false
+  ScaleformMovieMethodAddParamInt:
+    args:
+      - type: "..."
+        required: false
+  EndScaleformMovieMethod:
+    args:
+      - type: "..."
+        required: false
+  SetBigmapActive:
+    args:
+      - type: "..."
+        required: false
+  StatSetInt:
+    args:
+      - type: "..."
+        required: false
+  GetPedArmour:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerSprintStaminaRemaining:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerUnderwaterTimeRemaining:
+    args:
+      - type: "..."
+        required: false
+  IsPedSwimmingUnderWater:
+    args:
+      - type: "..."
+        required: false
+  NetworkIsPlayerTalking:
+    args:
+      - type: "..."
+        required: false
+  GetStreetNameAtCoord:
+    args:
+      - type: "..."
+        required: false
+  GetStreetNameFromHashKey:
+    args:
+      - type: "..."
+        required: false
+  GetNameOfZone:
+    args:
+      - type: "..."
+        required: false
+  GetFilenameForAudioConversation:
+    args:
+      - type: "..."
+        required: false
+  IsRadarHidden:
+    args:
+      - type: "..."
+        required: false
+  GetSafeZoneSize:
+    args:
+      - type: "..."
+        required: false
+  GetActualScreenResolution:
+    args:
+      - type: "..."
+        required: false
+  GetEntitySpeed:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleCurrentRpm:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleCurrentGear:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleEngineHealth:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleLightsState:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleDoorLockStatus:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModelNumberOfSeats:
+    args:
+      - type: "..."
+        required: false
+  SetEntityDrawOutlineColor:
+    args:
+      - type: "..."
+        required: false
+  GetControlInstructionalButton:
+    args:
+      - type: "..."
+  AddTextComponentScaleform:
+    args:
+      - type: "..."
+  SetSeethrough:
+    args:
+      - type: "..."
+  AttachCamToEntity:
+    args:
+      - type: "..."
+  SetEntityDrawOutlineShader:
+    args:
+      - type: "..."
+        required: false
+  SetPedCollectionComponentVariation:
+    args:
+      - type: "..."
+        required: false
+  SetPedCollectionPropIndex:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleMaxNumberOfPassengers:
+    args:
+      - type: "..."
+        required: false
+  GetIsDoorValid:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleDoorAngleRatio:
+    args:
+      - type: "..."
+        required: false
+  RollDownWindow:
+    args:
+      - type: "..."
+        required: false
+  RollUpWindow:
+    args:
+      - type: "..."
+        required: false
+  IsPedInFlyingVehicle:
+    args:
+      - type: "..."
+        required: false
+  GetEntityHeightAboveGround:
+    args:
+      - type: "..."
+        required: false
+  GetEntityRotation:
+    args:
+      - type: "..."
+        required: false
+  GetLandingGearState:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsClearShadowSampleType:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsEnableEntityTracker:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsSetAircraftMode:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsSetCascadeBoundsScale:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsSetDynamicDepthMode:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsSetDynamicDepthValue:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsSetEntityTrackerScale:
+    args:
+      - type: "..."
+        required: false
+  ClearBrief:
+    args:
+      - type: "..."
+        required: false
+  ClearPedEnvDirt:
+    args:
+      - type: "..."
+        required: false
+  ClearPedWetness:
+    args:
+      - type: "..."
+        required: false
+  ClearReplayStats:
+    args:
+      - type: "..."
+        required: false
+  DisableVehicleDistantlights:
+    args:
+      - type: "..."
+        required: false
+  LeaderboardsClearCacheData:
+    args:
+      - type: "..."
+        required: false
+  LeaderboardsReadClearAll:
+    args:
+      - type: "..."
+        required: false
+  RemoveParticleFxInRange:
+    args:
+      - type: "..."
+        required: false
+  ResetPedVisibleDamage:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsInitSession:
+    args:
+      - type: "..."
+        required: false
+  CascadeShadowsSetShadowSampleType:
+    args:
+      - type: "..."
+  ClearAllBrokenGlass:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerTargettingAnything:
+    args:
+      - type: "..."
+  OverrideLodscaleThisFrame:
+    args:
+      - type: "..."
+  PauseMenuceptionGoDeeper:
+    args:
+      - type: "..."
+  SetDistantCarsEnabled:
+    args:
+      - type: "..."
+  SetFarDrawVehicles:
+    args:
+      - type: "..."
+  SetFarShadowsSuppressed:
+    args:
+      - type: "..."
+  SetFrontendActive:
+    args:
+      - type: "..."
+  RopeDrawShadowEnabled:
+    args:
+      - type: "..."
+        required: false
+  SetDisableDecalRenderingThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetFlashLightFadeDistance:
+    args:
+      - type: "..."
+        required: false
+  SetLightsCutoffDistanceTweak:
+    args:
+      - type: "..."
+        required: false
+  ActivateFrontendMenu:
+    args:
+      - type: "..."
+        required: false
+  GetModelDimensions:
+    args:
+      - type: "..."
+        required: false
+  GetOffsetFromEntityGivenWorldCoords:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleClass:
+    args:
+      - type: "..."
+        required: false
+  ModifyVehicleTopSpeed:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleHandlingFloat:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleHandlingFloat:
+    args:
+      - type: "..."
+        required: false
+  ClearPedDecorations:
+    args:
+      - type: "..."
+        required: false
+  AddPedDecorationFromHashes:
+    args:
+      - type: "..."
+        required: false
+  GetCamCoord:
+    args:
+      - type: "..."
+        required: false
+  SetCamCoord:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerSwitchInProgress:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerSwitchState:
+    args:
+      - type: "..."
+        required: false
+  SwitchToMultiSecondpart:
+    args:
+      - type: "..."
+        required: false
+  SwitchToMultiFirstpart:
+    args:
+      - type: "..."
+        required: false
+  NetworkDoesEntityExistWithNetworkId:
+    args:
+      - type: "..."
+        required: false
+  CreateVehicleServerSetter:
+    args:
+      - type: "..."
+        required: false
+  GetAllVehicles:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleNumberPlateText:
+    args:
+      - type: "..."
+        required: false
+  IsModelAVehicle:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelACar:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelABike:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelABicycle:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelABoat:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelAJetski:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelAHeli:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelAPlane:
+    args:
+      - type: "..."
+        required: false
+  IsThisModelATrain:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleClassFromName:
+    args:
+      - type: "..."
+        required: false
+  HudWeaponWheelIgnoreControlInput:
+    args:
+      - type: "..."
+        required: false
+  HudWeaponWheelIgnoreSelection:
+    args:
+      - type: "..."
+        required: false
+  ClearPedTasks:
+    args:
+      - type: "..."
+        required: false
+  HasAnimDictLoaded:
+    args:
+      - type: "..."
+        required: false
+  SetEnableScuba:
+    args:
+      - type: "..."
+        required: false
+  SetPedDiesInWater:
+    args:
+      - type: "..."
+        required: false
+  GetNumberOfStreamingRequests:
+    args:
+      - type: "..."
+        required: false
+  IsEntityDead:
+    args:
+      - type: "..."
+        required: false
+  IsPedFalling:
+    args:
+      - type: "..."
+        required: false
+  IsPedInAnyVehicle:
+    args:
+      - type: "..."
+        required: false
+  IsPedRagdoll:
+    args:
+      - type: "..."
+        required: false
+  IsPedSwimming:
+    args:
+      - type: "..."
+        required: false
+  RemoveAnimDict:
+    args:
+      - type: "..."
+        required: false
+  RequestAnimDict:
+    args:
+      - type: "..."
+        required: false
+  TaskPlayAnim:
+    args:
+      - type: "..."
+        required: false
+  NetToPed:
+    args:
+      - type: "..."
+        required: false
+  TaskSetBlockingOfNonTemporaryEvents:
+    args:
+      - type: "..."
+        required: false
+  TaskEnterVehicle:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleIndicatorLights:
+    args:
+      - type: "..."
+        required: false
+  TaskVehicleDriveWander:
+    args:
+      - type: "..."
+        required: false
+  TaskWanderStandard:
+    args:
+      - type: "..."
+        required: false
+  EnableDispatchService:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerWantedLevel:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerWantedLevelNow:
+    args:
+      - type: "..."
+        required: false
+  CreateModelHide:
+    args:
+      - type: "..."
+        required: false
+  RemoveModelHide:
+    args:
+      - type: "..."
+        required: false
+  StopRopeWinding:
+    args:
+      - type: "..."
+        required: false
+  SetParticleFxNonLoopedColour:
+    args:
+      - type: "..."
+        required: false
+  TaskGoToCoordAnyMeans:
+    args:
+      - type: "..."
+        required: false
+  PlayAmbientSpeech1:
+    args:
+      - type: "..."
+        required: false
+  PlayPedAmbientSpeechNative:
+    args:
+      - type: "..."
+        required: false
+  TaskLeaveVehicle:
+    args:
+      - type: "..."
+        required: false
+  TaskGoStraightToCoord:
+    args:
+      - type: "..."
+        required: false
+  TaskStartScenarioInPlace:
+    args:
+      - type: "..."
+        required: false
+  IsControlJustReleased:
+    args:
+      - type: "..."
+        required: false
+  DisableControlAction:
+    args:
+      - type: "..."
+        required: false
+  DisplayAmmoThisFrame:
+    args:
+      - type: "..."
+        required: false
+  GetFollowPedCamViewMode:
+    args:
+      - type: "..."
+        required: false
+  GetGameplayCamRelativeHeading:
+    args:
+      - type: "..."
+        required: false
+  GetGameplayCamRelativePitch:
+    args:
+      - type: "..."
+        required: false
+  GetSelectedPedWeapon:
+    args:
+      - type: "..."
+        required: false
+  IsAimCamActive:
+    args:
+      - type: "..."
+        required: false
+  IsControlPressed:
+    args:
+      - type: "..."
+        required: false
+  IsPedArmed:
+    args:
+      - type: "..."
+        required: false
+  IsPedDoingDriveby:
+    args:
+      - type: "..."
+        required: false
+  IsPedShooting:
+    args:
+      - type: "..."
+        required: false
+  SetGameplayCamRelativeHeading:
+    args:
+      - type: "..."
+        required: false
+  SetGameplayCamRelativePitch:
+    args:
+      - type: "..."
+        required: false
+  ShakeGameplayCam:
+    args:
+      - type: "..."
+        required: false
+  GetCutsceneTime:
+    args:
+      - type: "..."
+        required: false
+  GetEntityModel:
+    args:
+      - type: "..."
+        required: false
+  HasCutsceneLoaded:
+    args:
+      - type: "..."
+        required: false
+  IsCutsceneActive:
+    args:
+      - type: "..."
+        required: false
+  IsCutscenePlaying:
+    args:
+      - type: "..."
+        required: false
+  NewLoadSceneStartSphere:
+    args:
+      - type: "..."
+        required: false
+  NewLoadSceneStop:
+    args:
+      - type: "..."
+        required: false
+  RegisterEntityForCutscene:
+    args:
+      - type: "..."
+        required: false
+  RemoveCutscene:
+    args:
+      - type: "..."
+        required: false
+  RequestCutsceneWithPlaybackList:
+    args:
+      - type: "..."
+        required: false
+  SetCutsceneEntityStreamingFlags:
+    args:
+      - type: "..."
+        required: false
+  StartCutscene:
+    args:
+      - type: "..."
+        required: false
+  StopCutsceneImmediately:
+    args:
+      - type: "..."
+        required: false
+  HideHudComponentThisFrame:
+    args:
+      - type: "..."
+        required: false
+  RemoveMultiplayerHudCash:
+    args:
+      - type: "..."
+        required: false
+  RemoveMultiplayerBankCash:
+    args:
+      - type: "..."
+        required: false
+  AddEventHandler:
+    args:
+      - type: "..."
+        required: false
+  AddStateBagChangeHandler:
+    args:
+      - type: "..."
+        required: false
+  AddTextEntry:
+    args:
+      - type: "..."
+        required: false
+  CancelEvent:
+    args:
+      - type: "..."
+        required: false
+  Citizen:
+    any: true
+  class:
+    any: true
+  ClearPedTasksImmediately:
+    args:
+      - type: "..."
+        required: false
+  ClearPlayerWantedLevel:
+    args:
+      - type: "..."
+        required: false
+  CreateObject:
+    args:
+      - type: "..."
+        required: false
+  CreatePed:
+    args:
+      - type: "..."
+        required: false
+  CreateThread:
+    args:
+      - type: "..."
+        required: false
+  CreateVehicle:
+    args:
+      - type: "..."
+        required: false
+  Db:
+    any: true
+  CreateCheckpoint:
+    args:
+      - type: "..."
+        required: false
+  DeleteCheckpoint:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelSize:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelWidth:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelXOffset:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelYRotation:
+    args:
+      - type: "..."
+        required: false
+  DeleteVehicle:
+    args:
+      - type: "..."
+        required: false
+  DeleteEntity:
+    args:
+      - type: "..."
+        required: false
+  RegisterConsoleListener:
+    args:
+      - type: "..."
+        required: false
+  SetEntityAsMissionEntity:
+    args:
+      - type: "..."
+        required: false
+  DisplayRadar:
+    args:
+      - type: "..."
+        required: false
+  DoesEntityExist:
+    args:
+      - type: "..."
+        required: false
+  DoesPlayerExist:
+    args:
+      - type: "..."
+        required: false
+  DoScreenFadeIn:
+    args:
+      - type: "..."
+        required: false
+  DoScreenFadeOut:
+    args:
+      - type: "..."
+        required: false
+  DropPlayer:
+    args:
+      - type: "..."
+        required: false
+  Entity:
+    args:
+      - type: "..."
+        required: false
+  ExecuteCommand:
+    args:
+      - type: "..."
+        required: false
+  exports:
+    any: true
+  FreezeEntityPosition:
+    args:
+      - type: "..."
+        required: false
+  GetConvar:
+    args:
+      - type: "..."
+        required: false
+  GetConvarInt:
+    args:
+      - type: "..."
+        required: false
+  GetCurrentResourceName:
+    args:
+      - type: "..."
+        required: false
+  GetEntityCoords:
+    args:
+      - type: "..."
+        required: false
+  GetEntityHeading:
+    args:
+      - type: "..."
+        required: false
+  GetEntityHealth:
+    args:
+      - type: "..."
+        required: false
+  GetEntityRoutingBucket:
+    args:
+      - type: "..."
+        required: false
+  GetGameTimer:
+    args:
+      - type: "..."
+        required: false
+  GetHashKey:
+    args:
+      - type: "..."
+        required: false
+  GetInvokingResource:
+    args:
+      - type: "..."
+        required: false
+  GetNumPlayerIdentifiers:
+    args:
+      - type: "..."
+        required: false
+  GetNumPlayerTokens:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerEndpoint:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerFromServerId:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerFromStateBagName:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerGuid:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerIdentifier:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerIdentifierByType:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerIdentifiers:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerLastMsg:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerName:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerPed:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerPing:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerFocusPos:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerRoutingBucket:
+    args:
+      - type: "..."
+        required: false
+  GetNumPlayerIndices:
+    args:
+      - type: "..."
+        required: false
+  GetPlayers:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerServerId:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerToken:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerTokens:
+    args:
+      - type: "..."
+        required: false
+  GetResourcePath:
+    args:
+      - type: "..."
+        required: false
+  GetResourceState:
+    args:
+      - type: "..."
+        required: false
+  GlobalState:
+    any: true
+  HasCollisionLoadedAroundEntity:
+    args:
+      - type: "..."
+        required: false
+  HasModelLoaded:
+    args:
+      - type: "..."
+        required: false
+  Bz:
+    any: true
+  IsDuplicityVersion:
+    args:
+      - type: "..."
+        required: false
+  IsModelInCdimage:
+    args:
+      - type: "..."
+        required: false
+  IsModelValid:
+    args:
+      - type: "..."
+        required: false
+  IsHudHidden:
+    args:
+      - type: "..."
+        required: false
+  IsNuiFocused:
+    args:
+      - type: "..."
+        required: false
+  IsPauseMenuActive:
+    args:
+      - type: "..."
+        required: false
+  IsPedDeadOrDying:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerAceAllowed:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerTeleportActive:
+    args:
+      - type: "..."
+        required: false
+  IsPrincipalAceAllowed:
+    args:
+      - type: "..."
+        required: false
+  IsScreenFadedIn:
+    args:
+      - type: "..."
+        required: false
+  AttachCamToPedBone:
+    args:
+      - type: "..."
+        required: false
+  IsScreenFadingIn:
+    args:
+      - type: "..."
+        required: false
+  IsScreenFadedOut:
+    args:
+      - type: "..."
+        required: false
+  joaat:
+    args:
+      - type: "..."
+        required: false
+  json:
+    any: true
+  LoadResourceFile:
+    args:
+      - type: "..."
+        required: false
+  LocalPlayer:
+    any: true
+  msgpack:
+    any: true
+  NetworkGetEntityFromNetworkId:
+    args:
+      - type: "..."
+        required: false
+  NetworkGetNetworkIdFromEntity:
+    args:
+      - type: "..."
+        required: false
+  NetworkIsPlayerActive:
+    args:
+      - type: "..."
+        required: false
+  NetworkIsSessionStarted:
+    args:
+      - type: "..."
+        required: false
+  NetworkResurrectLocalPlayer:
+    args:
+      - type: "..."
+        required: false
+  NetworkSetFriendlyFireOption:
+    args:
+      - type: "..."
+        required: false
+  Player:
+    args:
+      - type: "..."
+        required: false
+  PlayerId:
+    args:
+      - type: "..."
+        required: false
+  PlayerPedId:
+    args:
+      - type: "..."
+        required: false
+  promise:
+    any: true
+  quat:
+    args:
+      - type: "..."
+        required: false
+  RegisterCommand:
+    args:
+      - type: "..."
+        required: false
+  RegisterKeyMapping:
+    args:
+      - type: "..."
+        required: false
+  RegisterNetEvent:
+    args:
+      - type: "..."
+        required: false
+  RegisterNUICallback:
+    args:
+      - type: "..."
+        required: false
+  RegisterServerEvent:
+    args:
+      - type: "..."
+        required: false
+  RemoveAllPedWeapons:
+    args:
+      - type: "..."
+        required: false
+  GetAmmoInClip:
+    args:
+      - type: "..."
+        required: false
+  GetAmmoInPedWeapon:
+    args:
+      - type: "..."
+        required: false
+
+  GetEntityPopulationType:
+    args:
+      - type: "..."
+        required: false
+
+  GiveWeaponToPed:
+    args:
+      - type: "..."
+        required: false
+
+  NetworkGetEntityOwner:
+    args:
+      - type: "..."
+        required: false
+
+  NetworkGetFirstEntityOwner:
+    args:
+      - type: "..."
+        required: false
+
+  RemoveWeaponFromPed:
+    args:
+      - type: "..."
+        required: false
+
+  SetPedAmmo:
+    args:
+      - type: "..."
+        required: false
+
+  SetAmmoInClip:
+    args:
+      - type: "..."
+        required: false
+
+  SetWeaponsNoAutoswap:
+    args:
+      - type: "..."
+        required: false
+  RemoveEventHandler:
+    args:
+      - type: "..."
+        required: false
+  RemoveStateBagChangeHandler:
+    args:
+      - type: "..."
+        required: false
+  RequestAdditionalCollisionAtCoord:
+    args:
+      - type: "..."
+        required: false
+  RequestCollisionAtCoord:
+    args:
+      - type: "..."
+        required: false
+  RequestModel:
+    args:
+      - type: "..."
+        required: false
+  SaveResourceFile:
+    args:
+      - type: "..."
+        required: false
+  SendNUIMessage:
+    args:
+      - type: "..."
+        required: false
+  SetCanAttackFriendly:
+    args:
+      - type: "..."
+        required: false
+  SetConvar:
+    args:
+      - type: "..."
+        required: false
+  SetConvarServerInfo:
+    args:
+      - type: "..."
+  SetConvarReplicated:
+    args:
+      - type: "..."
+        required: false
+  SetEntityNoCollisionEntity:
+    args:
+      - type: "..."
+        required: false
+  IsModelAPed:
+    args:
+      - type: "..."
+        required: false
+  GetApproxHeightForPoint:
+    args:
+      - type: "..."
+        required: false
+  NetworkOverrideClockMillisecondsPerGameMinute:
+    args:
+      - type: "..."
+        required: false
+  SetEntityCollision:
+    args:
+      - type: "..."
+        required: false
+  SetEntityMaxSpeed:
+    args:
+      - type: "..."
+        required: false
+  SetEntityCoords:
+    args:
+      - type: "..."
+        required: false
+  SetEntityCoordsNoOffset:
+    args:
+      - type: "..."
+        required: false
+  SetEntityHeading:
+    args:
+      - type: "..."
+        required: false
+  SetEntityHealth:
+    args:
+      - type: "..."
+        required: false
+  SetEntityInvincible:
+    args:
+      - type: "..."
+        required: false
+  IsPedClimbing:
+    args:
+      - type: "..."
+        required: false
+  IsPedJumping:
+    args:
+      - type: "..."
+        required: false
+  IsPedRunning:
+    args:
+      - type: "..."
+        required: false
+  IsPedSprinting:
+    args:
+      - type: "..."
+        required: false
+  ApplyForceToEntity:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleDamaged:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleOnAllWheels:
+    args:
+      - type: "..."
+        required: false
+  SetEntityIgnoreRequestControlFilter:
+    args:
+      - type: "..."
+  SetEntityOrphanMode:
+    args:
+      - type: "..."
+        required: false
+  SetEntityRoutingBucket:
+    args:
+      - type: "..."
+        required: false
+  SetEntityVisible:
+    args:
+      - type: "..."
+        required: false
+  SetGameType:
+    args:
+      - type: "..."
+        required: false
+  SetMapName:
+    args:
+      - type: "..."
+        required: false
+  SetMaxWantedLevel:
+    args:
+      - type: "..."
+        required: false
+  SetModelAsNoLongerNeeded:
+    args:
+      - type: "..."
+        required: false
+  SetNuiFocus:
+    args:
+      - type: "..."
+        required: false
+  SetPedCanRagdoll:
+    args:
+      - type: "..."
+        required: false
+  SetPedDefaultComponentVariation:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerControl:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerInvincible:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerModel:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerRoutingBucket:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerWantedLevel:
+    args:
+      - type: "..."
+        required: false
+  SetRoutingBucketEntityLockdownMode:
+    args:
+      - type: "..."
+        required: false
+  SetRoutingBucketPopulationEnabled:
+    args:
+      - type: "..."
+        required: false
+  SetTextChatEnabled:
+    args:
+      - type: "..."
+        required: false
+  SetTimeout:
+    args:
+      - type: "..."
+        required: false
+  GetIsLoadingScreenActive:
+    args:
+      - type: "..."
+  ShutdownLoadingScreen:
+    args:
+      - type: "..."
+        required: false
+  ShutdownLoadingScreenNui:
+    args:
+      - type: "..."
+        required: false
+  source:
+    property: read-only
+  StartPlayerTeleport:
+    args:
+      - type: "..."
+        required: false
+  StateBagHandler:
+    args:
+      - type: "..."
+        required: false
+  TriggerClientEvent:
+    args:
+      - type: "..."
+        required: false
+  TriggerClientEventInternal:
+    args:
+      - type: "..."
+        required: false
+  TriggerEvent:
+    args:
+      - type: "..."
+        required: false
+  TriggerLatentClientEvent:
+    args:
+      - type: "..."
+        required: false
+  TriggerLatentServerEvent:
+    args:
+      - type: "..."
+        required: false
+  TriggerServerEvent:
+    args:
+      - type: "..."
+        required: false
+  vec:
+    args:
+      - type: "..."
+        required: false
+  vec2:
+    args:
+      - type: "..."
+        required: false
+  vec3:
+    args:
+      - type: "..."
+        required: false
+  vec4:
+    args:
+      - type: "..."
+        required: false
+  vector2:
+    args:
+      - type: "..."
+        required: false
+  vector3:
+    args:
+      - type: "..."
+        required: false
+  vector4:
+    args:
+      - type: "..."
+        required: false
+  Wait:
+    args:
+      - type: "..."
+        required: false
+  WasEventCanceled:
+    args:
+      - type: "..."
+        required: false
+  ClearOverrideWeather:
+    args:
+      - type: "..."
+        required: false
+  ClearPedProp:
+    args:
+      - type: "..."
+        required: false
+  ClearWeatherTypePersist:
+    args:
+      - type: "..."
+        required: false
+  CreateCamWithParams:
+    args:
+      - type: "..."
+        required: false
+  DeleteResourceKvp:
+    args:
+      - type: "..."
+        required: false
+  DestroyCam:
+    args:
+      - type: "..."
+        required: false
+  EnableControlAction:
+    args:
+      - type: "..."
+        required: false
+  SetCurrentPedWeapon:
+    args:
+      - type: "..."
+        required: false
+  DisableAllControlActions:
+    args:
+      - type: "..."
+        required: false
+  DoesCamExist:
+    args:
+      - type: "..."
+        required: false
+  IsValidInterior:
+    args:
+      - type: "..."
+        required: false
+  ActivateInteriorEntitySet:
+    args:
+      - type: "..."
+        required: false
+  DeactivateInteriorEntitySet:
+    args:
+      - type: "..."
+        required: false
+  IsInteriorEntitySetActive:
+    args:
+      - type: "..."
+        required: false
+  RequestIpl:
+    args:
+      - type: "..."
+        required: false
+  RemoveIpl:
+    args:
+      - type: "..."
+        required: false
+  IsIplActive:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorAtCoordsWithType:
+    args:
+      - type: "..."
+        required: false
+  CreateRuntimeTxd:
+    args:
+      - type: "..."
+        required: false
+  CreateRuntimeTextureFromImage:
+    args:
+      - type: "..."
+        required: false
+  RefreshInterior:
+    args:
+      - type: "..."
+        required: false
+  PointCamAtEntity:
+    args:
+      - type: "..."
+        required: false
+  SetNewWaypoint:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorAtCoords:
+    args:
+      - type: "..."
+        required: false
+  GetNumberOfPedDrawableVariations:
+    args:
+      - type: "..."
+        required: false
+  GetNumberOfPedPropDrawableVariations:
+    args:
+      - type: "..."
+        required: false
+  GetNumberOfPedTextureVariations:
+    args:
+      - type: "..."
+        required: false
+  GetNumHairColors:
+    args:
+      - type: "..."
+        required: false
+  GetPedHeadOverlayNum:
+    args:
+      - type: "..."
+        required: false
+  GetResourceKvpString:
+    args:
+      - type: "..."
+        required: false
+  HideHudAndRadarThisFrame:
+    args:
+      - type: "..."
+        required: false
+  IsInteriorReady:
+    args:
+      - type: "..."
+        required: false
+  IsPedModel:
+    args:
+      - type: "..."
+        required: false
+  NetworkClearClockTimeOverride:
+    args:
+      - type: "..."
+        required: false
+  NetworkOverrideClockTime:
+    args:
+      - type: "..."
+        required: false
+  PinInteriorInMemory:
+    args:
+      - type: "..."
+        required: false
+  PointCamAtCoord:
+    args:
+      - type: "..."
+        required: false
+  RenderScriptCams:
+    args:
+      - type: "..."
+        required: false
+  SetCamActive:
+    args:
+      - type: "..."
+        required: false
+  SetCamActiveWithInterp:
+    args:
+      - type: "..."
+        required: false
+  SetOverrideWeather:
+    args:
+      - type: "..."
+        required: false
+  SetPedComponentVariation:
+    args:
+      - type: "..."
+        required: false
+  SetPedEyeColor:
+    args:
+      - type: "..."
+        required: false
+  SetPedFaceFeature:
+    args:
+      - type: "..."
+        required: false
+  SetPedHairTint:
+    args:
+      - type: "..."
+        required: false
+  SetPedHeadBlendData:
+    args:
+      - type: "..."
+        required: false
+  SetPedHeadOverlayColor:
+    args:
+      - type: "..."
+        required: false
+  SetPedHeadOverlay:
+    args:
+      - type: "..."
+        required: false
+  SetResourceKvp:
+    args:
+      - type: "..."
+        required: false
+  SetWeatherTypeNowPersist:
+    args:
+      - type: "..."
+        required: false
+  UnpinInterior:
+    args:
+      - type: "..."
+        required: false
+  GetEntityAlpha:
+    args:
+      - type: "..."
+        required: false
+  GetEntityCollisionDisabled:
+    args:
+      - type: "..."
+        required: false
+  GetFrameTime:
+    args:
+      - type: "..."
+        required: false
+  GetGameplayCamRot:
+    args:
+      - type: "..."
+        required: false
+  GetGroundZFor_3dCoord:
+    args:
+      - type: "..."
+        required: false
+  GetPedInVehicleSeat:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerInvincible_2:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerInvincible:
+    args:
+      - type: "..."
+        required: false
+  GetVehiclePedIsIn:
+    args:
+      - type: "..."
+        required: false
+  GetWaterHeight:
+    args:
+      - type: "..."
+        required: false
+  IsDisabledControlJustPressed:
+    args:
+      - type: "..."
+        required: false
+  IsDisabledControlPressed:
+    args:
+      - type: "..."
+        required: false
+  IsEntityPositionFrozen:
+    args:
+      - type: "..."
+        required: false
+  IsEntityVisible:
+    args:
+      - type: "..."
+        required: false
+  ResetEntityAlpha:
+    args:
+      - type: "..."
+        required: false
+  SetEntityAlpha:
+    args:
+      - type: "..."
+        required: false
+  SetEntityLocallyVisible:
+    args:
+      - type: "..."
+        required: false
+  SetEntityQuaternion:
+    args:
+      - type: "..."
+        required: false
+  SetEntityRotation:
+    args:
+      - type: "..."
+        required: false
+  SetEntityVelocity:
+    args:
+      - type: "..."
+        required: false
+  SetEveryoneIgnorePlayer:
+    args:
+      - type: "..."
+        required: false
+  SetLocalPlayerVisibleLocally:
+    args:
+      - type: "..."
+        required: false
+  SetPedKeepTask:
+    args:
+      - type: "..."
+        required: false
+  SetPedRelationshipGroupHash:
+    args:
+      - type: "..."
+        required: false
+  SetPedCombatAttributes:
+    args:
+      - type: "..."
+        required: false
+  SetPedFleeAttributes:
+    args:
+      - type: "..."
+        required: false
+  SetPedCanBeDraggedOut:
+    args:
+      - type: "..."
+        required: false
+  GetSafeCoordForPed:
+    args:
+      - type: "..."
+        required: false
+  CalculateTravelDistanceBetweenPoints:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerRadioStationName:
+    args:
+      - type: "..."
+        required: false
+  SetPedIntoVehicle:
+    args:
+      - type: "..."
+        required: false
+  SetPoliceIgnorePlayer:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleOnGroundProperly:
+    args:
+      - type: "..."
+        required: false
+  ClearDrawOrigin:
+    args:
+      - type: "..."
+        required: false
+  DisablePlayerFiring:
+    args:
+      - type: "..."
+        required: false
+  DrawLine:
+    args:
+      - type: "..."
+        required: false
+  DrawMarker:
+    args:
+      - type: "..."
+        required: false
+  DrawSprite:
+    args:
+      - type: "..."
+        required: false
+  GetAspectRatio:
+    args:
+      - type: "..."
+        required: false
+  GetEntityArchetypeName:
+    args:
+      - type: "..."
+        required: false
+  GetEntityBoneIndexByName:
+    args:
+      - type: "..."
+        required: false
+  GetEntityBonePosition_2:
+    args:
+      - type: "..."
+        required: false
+  GetEntityType:
+    args:
+      - type: "..."
+        required: false
+  GetFinalRenderedCamCoord:
+    args:
+      - type: "..."
+        required: false
+  GetFinalRenderedCamRot:
+    args:
+      - type: "..."
+        required: false
+  GetShapeTestResultIncludingMaterial:
+    args:
+      - type: "..."
+        required: false
+  HasEntityClearLosToEntity:
+    args:
+      - type: "..."
+        required: false
+  HasStreamedTextureDictLoaded:
+    args:
+      - type: "..."
+        required: false
+  IsPedAPlayer:
+    args:
+      - type: "..."
+        required: false
+  CreateMissionTrain:
+    args:
+      - type: "..."
+        required: false
+  DeleteMissionTrain:
+    args:
+      - type: "..."
+        required: false
+  SetTrainSpeed:
+    args:
+      - type: "..."
+        required: false
+  SetTrainCruiseSpeed:
+    args:
+      - type: "..."
+        required: false
+  GetTrainCarriage:
+    args:
+      - type: "..."
+        required: false
+  SetControlNormal:
+    args:
+      - type: "..."
+        required: false
+  RopeGetDistanceBetweenEnds:
+    args:
+      - type: "..."
+        required: false
+  StartRopeWinding:
+    args:
+      - type: "..."
+        required: false
+  VehToNet:
+    args:
+      - type: "..."
+        required: false
+  NetworkGetEntityIsNetworked:
+    args:
+      - type: "..."
+        required: false
+  RequestStreamedTextureDict:
+    args:
+      - type: "..."
+        required: false
+  SetCursorLocation:
+    args:
+      - type: "..."
+        required: false
+  SetDrawOrigin:
+    args:
+      - type: "..."
+        required: false
+  SetEntityDrawOutline:
+    args:
+      - type: "..."
+        required: false
+  SetStreamedTextureDictAsNoLongerNeeded:
+    args:
+      - type: "..."
+        required: false
+  StartShapeTestLosProbe:
+    args:
+      - type: "..."
+        required: false
+  SetNuiFocusKeepInput:
+    args:
+      - type: "..."
+        required: false
+  AnimpostfxPlay:
+    args:
+      - type: "..."
+        required: false
+  AnimpostfxStop:
+    args:
+      - type: "..."
+        required: false
+  GetEntityMaxHealth:
+    args:
+      - type: "..."
+        required: false
+  GetOffsetFromEntityInWorldCoords:
+    args:
+      - type: "..."
+        required: false
+  GetPedCauseOfDeath:
+    args:
+      - type: "..."
+        required: false
+  GetPedSourceOfDeath:
+    args:
+      - type: "..."
+        required: false
+  IsControlJustPressed:
+    args:
+      - type: "..."
+        required: false
+  IsEntityAPed:
+    args:
+      - type: "..."
+        required: false
+  IsEntityPlayingAnim:
+    args:
+      - type: "..."
+        required: false
+  NetworkGetPlayerIndexFromPed:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerHealthRechargeMultiplier:
+    args:
+      - type: "..."
+        required: false
+  AttachEntityToEntity:
+    args:
+      - type: "..."
+        required: false
+  ClearFacialIdleAnimOverride:
+    args:
+      - type: "..."
+        required: false
+  CreateObjectNoOffset:
+    args:
+      - type: "..."
+        required: false
+  DetachEntity:
+    args:
+      - type: "..."
+        required: false
+  GetActivePlayers:
+    args:
+      - type: "..."
+        required: false
+  IsEntityAttachedToEntity:
+    args:
+      - type: "..."
+        required: false
+  GetPedBoneIndex:
+    args:
+      - type: "..."
+        required: false
+  HasAnimSetLoaded:
+    args:
+      - type: "..."
+        required: false
+  HasNamedPtfxAssetLoaded:
+    args:
+      - type: "..."
+        required: false
+  IsPedUsingAnyScenario:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerFreeAiming:
+    args:
+      - type: "..."
+        required: false
+  NetToObj:
+    args:
+      - type: "..."
+        required: false
+  NetworkDoesNetworkIdExist:
+    args:
+      - type: "..."
+        required: false
+  NetworkHasControlOfEntity:
+    args:
+      - type: "..."
+        required: false
+  NetworkRequestControlOfEntity:
+    args:
+      - type: "..."
+        required: false
+  PlaySoundFromEntity:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleRadioEnabled:
+    args:
+      - type: "..."
+        required: false
+  PlaySoundFrontend:
+    args:
+      - type: "..."
+        required: false
+  RemoveAnimSet:
+    args:
+      - type: "..."
+        required: false
+  RequestAnimSet:
+    args:
+      - type: "..."
+        required: false
+  RequestNamedPtfxAsset:
+    args:
+      - type: "..."
+        required: false
+  RemoveNamedPtfxAsset:
+    args:
+      - type: "..."
+        required: false
+  ResetPedMovementClipset:
+    args:
+      - type: "..."
+        required: false
+  SetFacialIdleAnimOverride:
+    args:
+      - type: "..."
+        required: false
+  SetPedMovementClipset:
+    args:
+      - type: "..."
+        required: false
+  SetWeaponAnimationOverride:
+    args:
+      - type: "..."
+        required: false
+  StartNetworkedParticleFxLoopedOnEntity:
+    args:
+      - type: "..."
+        required: false
+  StopParticleFxLooped:
+    args:
+      - type: "..."
+        required: false
+  TaskStartScenarioAtPosition:
+    args:
+      - type: "..."
+        required: false
+  UseParticleFxAsset:
+    args:
+      - type: "..."
+        required: false
+  AddBlipForEntity:
+    args:
+      - type: "..."
+        required: false
+  AddTextComponentSubstringPlayerName:
+    args:
+      - type: "..."
+        required: false
+  BeginTextCommandSetBlipName:
+    args:
+      - type: "..."
+        required: false
+  ClearPedBloodDamage:
+    args:
+      - type: "..."
+        required: false
+  DoesBlipExist:
+    args:
+      - type: "..."
+        required: false
+  EndTextCommandSetBlipName:
+    args:
+      - type: "..."
+        required: false
+  GetAllObjects:
+    args:
+      - type: "..."
+        required: false
+  GetAllPeds:
+    args:
+      - type: "..."
+        required: false
+  GetBlipInfoIdCoord:
+    args:
+      - type: "..."
+        required: false
+  GetBlipInfoIdDisplay:
+    args:
+      - type: "..."
+        required: false
+  IsBlipShortRange:
+    args:
+      - type: "..."
+        required: false
+  GetFirstBlipInfoId:
+    args:
+      - type: "..."
+        required: false
+  GetNextBlipInfoId:
+    args:
+      - type: "..."
+        required: false
+  GetMainPlayerBlipId:
+    args:
+      - type: "..."
+        required: false
+  RemoveBlip:
+    args:
+      - type: "..."
+        required: false
+  IsWaypointActive:
+    args:
+      - type: "..."
+        required: false
+  SetWaypointOff:
+    args:
+      - type: "..."
+        required: false
+  ResetPlayerStamina:
+    args:
+      - type: "..."
+        required: false
+  SetArtificialLightsStateAffectsVehicles:
+    args:
+      - type: "..."
+        required: false
+  SetArtificialLightsState:
+    args:
+      - type: "..."
+        required: false
+  SetBlipColour:
+    args:
+      - type: "..."
+        required: false
+  SetBlipCoords:
+    args:
+      - type: "..."
+        required: false
+  SetBlipRotation:
+    args:
+      - type: "..."
+        required: false
+  IsPedWeaponReadyToShoot:
+    args:
+      - type: "..."
+        required: false
+  IsPedInCover:
+    args:
+      - type: "..."
+        required: false
+  GetPedStealthMovement:
+    args:
+      - type: "..."
+        required: false
+  IsPedUsingActionMode:
+    args:
+      - type: "..."
+        required: false
+  GetPedRelationshipGroupHash:
+    args:
+      - type: "..."
+        required: false
+  SetPedCanSwitchWeapon:
+    args:
+      - type: "..."
+        required: false
+  SetPlayerLockon:
+    args:
+      - type: "..."
+        required: false
+  ResetPedWeaponMovementClipset:
+    args:
+      - type: "..."
+        required: false
+  ResetPedStrafeClipset:
+    args:
+      - type: "..."
+        required: false
+  StopPlayerSwitch:
+    args:
+      - type: "..."
+        required: false
+  SetRelationshipBetweenGroups:
+    args:
+      - type: "..."
+        required: false
+  SetBlipScale:
+    args:
+      - type: "..."
+        required: false
+  SetBlipSprite:
+    args:
+      - type: "..."
+        required: false
+  SetEnableHandcuffs:
+    args:
+      - type: "..."
+        required: false
+  SetPedStealthMovement:
+    args:
+      - type: "..."
+        required: false
+  StartShapeTestCapsule:
+    args:
+      - type: "..."
+        required: false
+  IsEntityAVehicle:
+    args:
+      - type: "..."
+        required: false
+  GiveWeaponComponentToPed:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  RemoveWeaponComponentFromPed:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  ReplaceHudColourWithRgba:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  CreateWeaponObject:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  SetWeaponObjectTintIndex:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  GiveWeaponComponentToWeaponObject:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  RemoveWeaponComponentFromWeaponObject:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  GetWeaponComponentTypeModel:
+    args:
+      - type: "any"
+        required: false
+  RequestWeaponAsset:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  HasWeaponAssetLoaded:
+    args:
+      - type: "any"
+        required: false
+  SetPedWeaponTintIndex:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  HasPedGotWeapon:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  DisableInterior:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  SetBlipHiddenOnLegend:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  NetToVeh:
+    args:
+      - type: "any"
+        required: false
+  SetAmbientZoneStatePersistent:
+    args:
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+      - type: "any"
+        required: false
+  SetPedArmour:
+    args:
+      - type: "..."
+        required: false
+  SetPedCoordsKeepVehicle:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDeformationFixed:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDirtLevel:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleEngineHealth:
+    args:
+      - type: "..."
+  StartEntityFire:
+    args:
+      - type: "..."
+        required: false
+  SetBoatAnchor:
+    args:
+      - type: "..."
+        required: false
+  CanAnchorBoatHere:
+    args:
+      - type: "..."
+        required: false
+  CanAnchorBoatHereIgnorePlayers:
+    args:
+      - type: "..."
+        required: false
+  IsBoatAnchored:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleFixed:
+    args:
+      - type: "..."
+        required: false
+  ShowHeadingIndicatorOnBlip:
+    args:
+      - type: "..."
+        required: false
+  WashDecalsFromVehicle:
+    args:
+      - type: "..."
+        required: false
+  ClearTimecycleModifier:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorPortalCount:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorPortalRoomFrom:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorPortalRoomTo:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorPortalEntityCount:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorPortalEntityArchetype:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorPortalEntityPosition:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorPosition:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorRotation:
+    args:
+      - type: "..."
+        required: false
+  ForceRoomForEntity:
+    args:
+      - type: "..."
+        required: false
+  GetRoomKeyFromEntity:
+    args:
+      - type: "..."
+        required: false
+  GetInteriorFromEntity:
+    args:
+      - type: "..."
+        required: false
+  GetRainLevel:
+    args:
+      - type: "..."
+        required: false
+  GetShapeTestResult:
+    args:
+      - type: "..."
+        required: false
+  IsEntityInWater:
+    args:
+      - type: "..."
+        required: false
+  GetWeapontypeGroup:
+    args:
+      - type: "..."
+        required: false
+  IsPedCurrentWeaponSilenced:
+    args:
+      - type: "..."
+        required: false
+  SetGameplayCamShakeAmplitude:
+    args:
+      - type: "..."
+        required: false
+  SetPedConfigFlag:
+    args:
+      - type: "..."
+        required: false
+  SetPedToRagdoll:
+    args:
+      - type: "..."
+        required: false
+  SetTimecycleModifier:
+    args:
+      - type: "..."
+        required: false
+  SetTimecycleModifierStrength:
+    args:
+      - type: "..."
+        required: false
+  SetTransitionTimecycleModifier:
+    args:
+      - type: "..."
+        required: false
+  StartExpensiveSynchronousShapeTestLosProbe:
+    args:
+      - type: "..."
+        required: false
+  StartNetworkedParticleFxNonLoopedOnPedBone:
+    args:
+      - type: "..."
+        required: false
+  StopGameplayCamShaking:
+    args:
+      - type: "..."
+        required: false
+  GetClosestRoad:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleDirtLevel:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleNumberOfWheels:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleSteeringAngle:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleSuspensionBounds:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleThrottleOffset:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleWheelFlags:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleWheelSpeed:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleWheelSurfaceMaterial:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleWheelTireColliderSize:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleWheelTractionVectorLength:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleWheelType:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleBurnout:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleHandbrake:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleReduceGrip:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleReduceTraction:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelFlags:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelTireColliderSize:
+    args:
+      - type: "..."
+        required: false
+  CreateMobilePhone:
+    args:
+      - type: "..."
+        required: false
+  DestroyMobilePhone:
+    args:
+      - type: "..."
+        required: false
+  CellCamActivate:
+    args:
+      - type: "..."
+        required: false
+  CellCamActivateSelfieMode:
+    args:
+      - type: "..."
+        required: false
+  SetFollowPedCamViewMode:
+    args:
+      - type: "..."
+        required: false
+  CreateCam:
+    args:
+      - type: "..."
+        required: false
+  DeletePed:
+    args:
+      - type: "..."
+        required: false
+  ClearAllPedProps:
+    args:
+      - type: "..."
+        required: false
+  SetFocusPosAndVel:
+    args:
+      - type: "..."
+        required: false
+  DrawPoly:
+    args:
+      - type: "..."
+        required: false
+  DrawLightWithRange:
+    args:
+      - type: "..."
+        required: false
+  SetPedCanPlayAmbientAnims:
+    args:
+      - type: "..."
+        required: false
+  GetPedDecorationsState:
+    args:
+      - type: "..."
+        required: false
+  GetPedDecorationZoneFromHashes:
+    args:
+      - type: "..."
+        required: false
+  SetCamFov:
+    args:
+      - type: "..."
+        required: false
+  SetCamRot:
+    args:
+      - type: "..."
+        required: false
+  IsEntityInAngledArea:
+    args:
+      - type: "..."
+        required: false
+  LoadWaterFromPath:
+    args:
+      - type: "..."
+        required: false
+  SetGlobalMinBirdFlightHeight:
+    args:
+      - type: "..."
+        required: false
+  TaskWarpPedIntoVehicle:
+    args:
+      - type: "..."
+        required: false
+  AddDoorToSystem:
+    args:
+      - type: "..."
+        required: false
+  IsDoorRegisteredWithSystem:
+    args:
+      - type: "..."
+        required: false
+  RemoveDoorFromSystem:
+    args:
+      - type: "..."
+        required: false
+  DoorSystemSetDoorState:
+    args:
+      - type: "..."
+        required: false
+  DoorSystemSetHoldOpen:
+    args:
+      - type: "..."
+        required: false
+  DoorSystemSetOpenRatio:
+    args:
+      - type: "..."
+        required: false
+  RopeLoadTextures:
+    args:
+      - type: "..."
+        required: false
+  RopeAreTexturesLoaded:
+    args:
+      - type: "..."
+        required: false
+  AddRope:
+    args:
+      - type: "..."
+        required: false
+  DeleteRope:
+    args:
+      - type: "..."
+        required: false
+  DoesRopeExist:
+    args:
+      - type: "..."
+        required: false
+  ActivatePhysics:
+    args:
+      - type: "..."
+        required: false
+  AttachEntitiesToRope:
+    args:
+      - type: "..."
+        required: false
+  GetPlayersLastVehicle:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleAttachedToTrailer:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleTrailerVehicle:
+    args:
+      - type: "..."
+        required: false
+  AttachVehicleToTrailer:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleSirenOn:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleSiren:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleHasMutedSirens:
+    args:
+      - type: "..."
+        required: false
+  GetEntityAttachedTo:
+    args:
+      - type: "..."
+        required: false
+  ClearFocus:
+    args:
+      - type: "..."
+        required: false
+  ClearVehicleCustomPrimaryColour:
+    args:
+      - type: "..."
+        required: false
+  ClearVehicleCustomSecondaryColour:
+    args:
+      - type: "..."
+        required: false
+  GetDisplayNameFromVehicleModel:
+    args:
+      - type: "..."
+        required: false
+  GetDriftTyresEnabled:
+    args:
+      - type: "..."
+        required: false
+  GetHeadingFromVector_2d:
+    args:
+      - type: "..."
+        required: false
+  GetLabelText:
+    args:
+      - type: "..."
+        required: false
+  GetLiveryName:
+    args:
+      - type: "..."
+        required: false
+  GetMakeNameFromVehicleModel:
+    args:
+      - type: "..."
+        required: false
+  GetModTextLabel:
+    args:
+      - type: "..."
+        required: false
+  GetNumVehicleMods:
+    args:
+      - type: "..."
+        required: false
+  GetNumVehicleWindowTints:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleAcceleration:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleDashboardColour:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleEstimatedMaxSpeed:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleInteriorColour:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleLiveryCount:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleMaxBraking:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleMaxTraction:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModColor_1:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModColor_2:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModVariation:
+    args:
+      - type: "..."
+        required: false
+  IsDisabledControlJustReleased:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleModHswExclusive:
+    args:
+      - type: "..."
+        required: false
+  SetDriftTyresEnabled:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleModColor_1:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleModColor_2:
+    args:
+      - type: "..."
+        required: false
+  GetProfileSetting:
+    args:
+      - type: "..."
+        required: false
+  DoesParticleFxLoopedExist:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleModelMaxSpeed:
+    args:
+      - type: "..."
+        required: false
+  IsPedInVehicle:
+    args:
+      - type: "..."
+        required: false
+  IsVehicleStopped:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleBoostActive:
+    args:
+      - type: "..."
+        required: false
+  StartParticleFxLoopedOnEntity:
+    args:
+      - type: "..."
+        required: false
+  StartParticleFxNonLoopedOnEntity:
+    args:
+      - type: "..."
+        required: false
+  StartScreenEffect:
+    args:
+      - type: "..."
+        required: false
+  StopScreenEffect:
+    args:
+      - type: "..."
+        required: false
+  UseParticleFxAssetNextCall:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleTyresCanBurst:
+    args:
+      - type: "..."
+        required: false
+  IsEntityAttached:
+    args:
+      - type: "..."
+        required: false
+  GetNumResources:
+    args:
+      - type: "..."
+        required: false
+  GetResourceByFindIndex:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerWeaponDamageModifier:
+    args:
+      - type: "..."
+        required: false
+  GetPlayerMeleeWeaponDamageModifier:
+    args:
+      - type: "..."
+        required: false
+  NetworkIsInSpectatorMode:
+    args:
+      - type: "..."
+        required: false
+  NetworkSetInSpectatorMode:
+    args:
+      - type: "..."
+        required: false
+  SetFocusEntity:
+    args:
+      - type: "..."
+        required: false
+  GetEntityCanBeDamaged:
+    args:
+      - type: "..."
+        required: false
+  GetEntityProofs:
+    args:
+      - type: "..."
+        required: false
+  IsPedSwappingWeapon:
+    args:
+      - type: "..."
+        required: false
+  GetRenderingCam:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerPlaying:
+    args:
+      - type: "..."
+        required: false
+  IsPedReloading:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleWheelIsPowered:
+    args:
+      - type: "..."
+        required: false
+  GetWorldRotationOfEntityBone:
+    args:
+      - type: "..."
+        required: false
+  GetObjectOffsetFromCoords:
+    args:
+      - type: "..."
+        required: false
+  NetworkCreateSynchronisedScene:
+    args:
+      - type: "..."
+        required: false
+  NetworkAddPedToSynchronisedScene:
+    args:
+      - type: "..."
+        required: false
+  NetworkAddEntityToSynchronisedScene:
+    args:
+      - type: "..."
+        required: false
+  NetworkStartSynchronisedScene:
+    args:
+      - type: "..."
+        required: false
+  SetRunSprintMultiplierForPlayer:
+    args:
+      - type: "..."
+        required: false
+  SetSwimMultiplierForPlayer:
+    args:
+      - type: "..."
+        required: false
+  AnimpostfxStopAll:
+    args:
+      - type: "..."
+        required: false
+  SetPedMotionBlur:
+    args:
+      - type: "..."
+        required: false
+  TaskFollowToOffsetOfEntity:
+    args:
+      - type: "..."
+        required: false
+  SetPedIsDrunk:
+    args:
+      - type: "..."
+        required: false
+  NetworkStopSynchronisedScene:
+    args:
+      - type: "..."
+        required: false
+  GetFinalRenderedCamFov:
+    args:
+      - type: "..."
+        required: false
+  DrawSpotLight:
+    args:
+      - type: "..."
+        required: false
+  SetDisableFragDamage:
+    args:
+      - type: "..."
+        required: false
+  SetDisableBreaking:
+    args:
+      - type: "..."
+        required: false
+  IsPedActiveInScenario:
+    args:
+      - type: "..."
+        required: false
+  GetPedDrawableGlobalIndexFromCollection:
+    args:
+      - type: "..."
+        required: false
+  GetPedPropGlobalIndexFromCollection:
+    args:
+      - type: "..."
+        required: false
+  SetPedPreloadVariationData:
+    args:
+      - type: "..."
+        required: false
+  HasPedPreloadVariationDataFinished:
+    args:
+      - type: "..."
+        required: false
+  SetPedPreloadPropData:
+    args:
+      - type: "..."
+        required: false
+  HasPedPreloadPropDataFinished:
+    args:
+      - type: "..."
+        required: false
+  ReleasePedPreloadVariationData:
+    args:
+      - type: "..."
+        required: false
+  ReleasePedPreloadPropData:
+    args:
+      - type: "..."
+        required: false
+  IsPedInAnyPlane:
+    args:
+      - type: "..."
+        required: false
+  PlayEntityAnim:
+    args:
+      - type: "..."
+        required: false
+  SetEntityAnimCurrentTime:
+    args:
+      - type: "..."
+        required: false
+  SetEntityAnimSpeed:
+    args:
+      - type: "..."
+        required: false
+  BeginTextCommandDisplayHelp:
+    args:
+      - type: "..."
+        required: false
+  BeginTextCommandScaleformString:
+    args:
+      - type: "..."
+        required: false
+  ClearAllHelpMessages:
+    args:
+      - type: "..."
+        required: false
+  DisplayHud:
+    args:
+      - type: "..."
+        required: false
+  DrawScaleformMovieFullscreen:
+    args:
+      - type: "..."
+        required: false
+  EndScaleformMovieMethodReturnValue:
+    args:
+      - type: "..."
+        required: false
+  EndTextCommandDisplayHelp:
+    args:
+      - type: "..."
+        required: false
+  EndTextCommandScaleformString:
+    args:
+      - type: "..."
+        required: false
+  GetDefaultScriptRendertargetRenderId:
+    args:
+      - type: "..."
+        required: false
+  GetNamedRendertargetRenderId:
+    args:
+      - type: "..."
+        required: false
+  GetScaleformMovieMethodReturnValueBool:
+    args:
+      - type: "..."
+        required: false
+  GetScaleformMovieMethodReturnValueInt:
+    args:
+      - type: "..."
+        required: false
+  GetSoundId:
+    args:
+      - type: "..."
+        required: false
+  IsNamedRendertargetLinked:
+    args:
+      - type: "..."
+        required: false
+  IsNamedRendertargetRegistered:
+    args:
+      - type: "..."
+        required: false
+  IsScaleformMovieMethodReturnValueReady:
+    args:
+      - type: "..."
+        required: false
+  LinkNamedRendertarget:
+    args:
+      - type: "..."
+        required: false
+  RegisterNamedRendertarget:
+    args:
+      - type: "..."
+        required: false
+  ReleaseSoundId:
+    args:
+      - type: "..."
+        required: false
+  ScaleformMovieMethodAddParamPlayerNameString:
+    args:
+      - type: "..."
+        required: false
+  SetScaleformFitRendertarget:
+    args:
+      - type: "..."
+        required: false
+  SetScaleformMovieAsNoLongerNeeded:
+    args:
+      - type: "..."
+        required: false
+  SetScriptGfxDrawBehindPausemenu:
+    args:
+      - type: "..."
+        required: false
+  SetScriptGfxDrawOrder:
+    args:
+      - type: "..."
+        required: false
+  SetTextRenderId:
+    args:
+      - type: "..."
+        required: false
+  StopSound:
+    args:
+      - type: "..."
+        required: false
+  GetResourceKvpInt:
+    args:
+      - type: "..."
+        required: false
+  SetResourceKvpInt:
+    args:
+      - type: "..."
+        required: false
+  SetNetworkIdCanMigrate:
+    args:
+      - type: "..."
+        required: false
+  SetBlipHighDetail:
+    args:
+      - type: "..."
+        required: false
+  IsPlayerFreeAimingAtEntity:
+    args:
+      - type: "..."
+        required: false
+  GetEntityPlayerIsFreeAimingAt:
+    args:
+      - type: "..."
+        required: false
+  SetPedMaxHealth:
+    args:
+      - type: "..."
+        required: false
+  SetPedDiesWhenInjured:
+    args:
+      - type: "..."
+        required: false
+  RequestPathsPreferAccurateBoundingstruct:
+    args:
+      - type: "..."
+        required: false
+  AreNodesLoadedForArea:
+    args:
+      - type: "..."
+        required: false
+  GetClosestVehicleNodeWithHeading:
+    args:
+      - type: "..."
+        required: false
+  GetVehicleNodeProperties:
+    args:
+      - type: "..."
+        required: false
+  GetRoadBoundaryUsingHeading:
+    args:
+      - type: "..."
+        required: false
+  NetworkGetLocalSceneFromNetworkId:
+    args:
+      - type: "..."
+        required: false
+  GetSynchronizedScenePhase:
+    args:
+      - type: "..."
+        required: false
+  GetAnimInitialOffsetPosition:
+    args:
+      - type: "..."
+        required: false
+  ShakeCam:
+    args:
+      - type: "..."
+        required: false
+  GetAnimInitialOffsetRotation:
+    args:
+      - type: "..."
+        required: false
+  CreateDui:
+    args:
+      - type: "..."
+        required: false
+  GetDuiHandle:
+    args:
+      - type: "..."
+        required: false
+  SetDuiUrl:
+    args:
+      - type: "..."
+        required: false
+  CreateRuntimeTextureFromDuiHandle:
+    args:
+      - type: "..."
+        required: false
+  IsDuiAvailable:
+    args:
+      - type: "..."
+        required: false
+  RemoveParticleFx:
+    args:
+      - type: "..."
+        required: false
+  RemoveParticleFxFromEntity:
+    args:
+      - type: "..."
+        required: false
+  DisableOnFootFirstPersonViewThisUpdate:
+    args:
+      - type: "..."
+        required: false
+  SetThirdPersonCamOrbitDistanceLimitsThisUpdate:
+    args:
+      - type: "..."
+        required: false
+  PlaySynchronizedCamAnim:
+    args:
+      - type: "..."
+        required: false
+  CreateSynchronizedScene:
+    args:
+      - type: "..."
+        required: false
+  SetSynchronizedSceneRate:
+    args:
+      - type: "..."
+        required: false
+  SetSynchronizedScenePhase:
+    args:
+      - type: "..."
+        required: false
+  ReleaseNamedRendertarget:
+    args:
+      - type: "..."
+        required: false
+  SetPedCanHeadIk:
+    args:
+      - type: "..."
+        required: false
+  SetDiscordAppId:
+    args:
+      - type: "..."
+        required: false
+  SetDiscordRichPresenceAsset:
+    args:
+      - type: "..."
+        required: false
+  SetDiscordRichPresenceAssetText:
+    args:
+      - type: "..."
+        required: false
+  SetDiscordRichPresenceAction:
+    args:
+      - type: "..."
+        required: false
+  SetRichPresence:
+    args:
+      - type: "..."
+        required: false
+  ClearExtraTimecycleModifier:
+    args:
+      - type: "..."
+        required: false
+  GetClockMinutes:
+    args:
+      - type: "..."
+        required: false
+  SetCamDofStrength:
+    args:
+      - type: "..."
+        required: false
+  SetCamFarDof:
+    args:
+      - type: "..."
+        required: false
+  SetCamNearDof:
+    args:
+      - type: "..."
+        required: false
+  SetCamUseShallowDofMode:
+    args:
+      - type: "..."
+        required: false
+  SetExtraTimecycleModifier:
+    args:
+      - type: "..."
+        required: false
+  SetExtraTimecycleModifierStrength:
+    args:
+      - type: "..."
+        required: false
+  SetParkedVehicleDensityMultiplierThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetPedDensityMultiplierThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetRandomVehicleDensityMultiplierThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetScenarioPedDensityMultiplierThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetUseHiDof:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDensityMultiplierThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleDoorsShut:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleFullbeam:
+    args:
+      - type: "..."
+        required: false
+  InvalidateIdleCam:
+    args:
+      - type: "..."
+        required: false
+  IsCinematicCamRendering:
+    args:
+      - type: "..."
+        required: false
+  IsCinematicIdleCamRendering:
+    args:
+      - type: "..."
+        required: false
+  IsPedInParachuteFreeFall:
+    args:
+      - type: "..."
+        required: false
+  GetPedParachuteState:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleKeepEngineOnWhenAbandoned:
+    args:
+      - type: "..."
+        required: false
+  EnterCursorMode:
+    args:
+      - type: "..."
+        required: false
+  GetControlNormal:
+    args:
+      - type: "..."
+        required: false
+  GetEntityMatrix:
+    args:
+      - type: "..."
+        required: false
+  LeaveCursorMode:
+    args:
+      - type: "..."
+        required: false
+  SetEntityMatrix:
+    args:
+      - type: "..."
+        required: false
+  SetMouseCursorActiveThisFrame:
+    args:
+      - type: "..."
+        required: false
+  SetMouseCursorStyle:
+    args:
+      - type: "..."
+        required: false
+  SetMouseCursorVisible:
+    args:
+      - type: "..."
+        required: false
+  StartParticleFxLoopedAtCoord:
+    args:
+      - type: "..."
+        required: false
+  GetCamFov:
+    args:
+      - type: "..."
+        required: false
+  GetCamMatrix:
+    args:
+      - type: "..."
+        required: false
+  GetScreenAspectRatio:
+    args:
+      - type: "..."
+        required: false
+  SetPedCanPlayGestureAnims:
+    args:
+      - type: "..."
+        required: false
+  RemoveDecalsInRange:
+    args:
+      - type: "..."
+        required: false
+  SetObjectTextureVariation:
+    args:
+      - type: "..."
+        required: false
+  SetParticleFxLoopedColour:
+    args:
+      - type: "..."
+        required: false
+  ClearRoomForEntity:
+    args:
+      - type: "..."
+        required: false
+  SetVehicleSteerBias:
+    args:
+      - type: "..."
+        required: false
+  HasEntityBeenDamagedByAnyVehicle:
+    args:
+      - type: "..."
+        required: false
+  HasEntityBeenDamagedByAnyObject:
+    args:
+      - type: "..."
+        required: false
+  ClearEntityLastDamageEntity:
+    args:
+      - type: "..."
+        required: false
+  SetMobilePhoneScale:
+    args:
+      - type: "..."
+        required: false
